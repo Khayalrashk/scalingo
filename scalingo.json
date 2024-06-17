@@ -3,38 +3,75 @@
     "description": "• تنصيب سـورس زدثــون مجاناً علـى منصـة سكـالينجـو • افضـل سـورسـات يـوزربـوت العربيـة",
     "addons": ["scalingo-postgresql"],
     "keywords": ["zthon", "userbot","scalingo"],
-    "repository": "https://github.com/ZTScalingo/scalingo",
+    "repository": "https://github.com/Khayalrashk/scalingo",
     "logo": "https://graph.org/file/dc08630c4dc62f59d263b.jpg",
     "stack": "container",
     "env": {
-        "STRING_SESSION": {
-            "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت〔 T66bot@ 〕..",
-            "required": true
+      "API_ID": {
+        "description": "ضع هنا ايبي ايدي او اتركه كما هو.",
+        "value": "20036317",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "ضع هنا ايبي هاش او اتركه كما هو.",
+        "value": "986cb4ba434870a62fe96da3b5f6d411",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "ضع هنا تكون البوت الذي صنعته من @BotFather.",
+        "value": "",
+        "required": true
+      },
+      "START_IMG_URL": {
+        "description": "رابط صوره start او اتركه كما هو.",
+        "value": "https://telegra.ph/file/d4191afc187a6f9741443.jpg",
+        "required": true
+      },
+      "CHANNEL_NAME": {
+        "description": "اسم قناتك.",
+        "value": "𝐬𝐨𝐮𝐫𝐜𝐞 𝐥𝐨𝐥 🧚‍♀",
+        "required": true
+      },
+      "CHANNEL_LINK": {
+        "description": "رابط قناتك.",
+        "value": "https://t.me/K55DD",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "اضف ايدي المستخدم الذي ترغب في إضافته كـ مطور البوت او كما هوا",
+        "value": "5901732027",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "ضع هنا كود بايروجرام الحساب المساعد استخرجه من هذا البوت @t66bot",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": 
+       "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة.",
+        "value": "",
+        "required": false
+       },
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "اذا تريد ان يغادر الحساب المساعد بعد انتهاء المحادثه الصوتيه اكتب True ..",
+        "value": "false",
+        "required": false
         },
-        "TG_BOT_TOKEN": {
-            "description": "تـــوكـــن البـــوت المســاعـد الخــاص بـك - مـن بـوت فـاذر〔 Botfather@ 〕..",
-            "required": true,
-            "value":""
-        },
-        "APP_ID": {
-            "description": "كـود ايبي ايـدي〔 App id 〕اتركـه كمـا هــو",
-            "required": true,
-            "value":"27455984"
-        },
-        "API_HASH": {
-            "description": "كـود ايبي هـاش〔 Api Hash 〕اتركـه كمـا هــو",
-            "required": true,
-            "value":"62d5f68ce2e9189636967120220f5755"
-        },
-        "TZ": {
-            "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
-            "required": true,
-            "value": "Asia/Baghdad"
-        },
-        "ENV": {
-            "description": "لا تغيــرهـــا",
-            "required": true,
-            "value": "ANYTHING"
+      "MONGO_DB_URI": {
+        "description": "استضافتك من موقع https://cloud.mongodb.com ..",
+        "value": "",
+        "required": true
+      },
+      "LOGGER_ID": {
+        "description": "ادخــل ايــدي مجمـوعــة السجــل بجـانب الرقـم -100 فـي المربـع〔 سوي مجموعة جديدة وروح لاعدادات المجموعة وخلي السجل ظاهر .. بعدها ارفع البوت والحساب المساعد إشـراف وافتـح المكالمه بعدها جيب ايدي المجموعة لهنـا 〕..",
+        "value": "-1001993781277",
+        "required": true
         }
 
     }
