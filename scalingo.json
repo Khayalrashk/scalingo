@@ -46,17 +46,6 @@
         "description": "ضع هنا كود بايروجرام الحساب المساعد استخرجه من هذا البوت @t66bot",
         "value": "",
         "required": true
-      },
-      "HEROKU_API_KEY": {
-        "description": 
-       "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
-        "value": "",
-        "required": false
-      },
-      "HEROKU_APP_NAME": {
-        "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة.",
-        "value": "",
-        "required": false
        },
       "AUTO_LEAVING_ASSISTANT": {
         "description": "اذا تريد ان يغادر الحساب المساعد بعد انتهاء المحادثه الصوتيه اكتب True ..",
